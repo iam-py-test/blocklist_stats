@@ -24,8 +24,8 @@ for filter in filterlists:
             done.append(l)
             numfilters += 1
         stats[filter].append(numfilters)
-    except:
-        pass
+    except Exception as err:
+        print(err)
 
 for filter in stats:
     x = np.arange(1,len(stats[filter]) + 1)
