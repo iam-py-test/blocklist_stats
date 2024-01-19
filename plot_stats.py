@@ -37,11 +37,12 @@ for filter in stats:
     x = np.arange(1,len(stats[filter]) + 1)
     y = np.array(stats[filter])
 
+    filtername = filter.replace(" ","_").replace("'","")
     plt.title(f"Number of unique filters in {filter}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
     plt.plot(x, y, color ="green")
-    plt.savefig(f"stats/{filter}.png")
+    plt.savefig(f"stats/{filtername}.png")
     plt.clf()
 
 try:
