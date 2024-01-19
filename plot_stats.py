@@ -8,6 +8,11 @@ import requests
 filterlists = json.loads(open('filterlists.json').read())
 
 try:
+    os.mkdir("stats")
+except:
+    pass
+
+try:
     stats = json.loads(open('stats.json', 'r', encoding='utf-8').read())
 except:
     stats = {}
