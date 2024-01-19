@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as allowedcolors
 import json
 import os
+import requests
 
 filterlists = json.loads(open('filterlists.json').read())
 
