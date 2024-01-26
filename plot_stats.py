@@ -4,6 +4,7 @@ import matplotlib.colors as allowedcolors
 import json
 import os
 import requests
+import threading
 
 filterlists = json.loads(open('filterlists.json').read())
 
@@ -17,7 +18,12 @@ try:
 except:
     stats = {}
 
-for filter in filterlists:
+running_threads = 0
+
+def count_filters(filter):
+    global stats
+    global running_threads
+    running_threads += 1
     try:
         fcontents = requests.get(filterlists[filter]).text.replace("\r\n", "\n").split("\n")
         if filter not in stats:
@@ -32,6 +38,13 @@ for filter in filterlists:
         stats[filter].append(numfilters)
     except Exception as err:
         print(err)
+    running_threads -= 1
+
+for filter in filterlists:
+    threading.Thread(target=count_filters, args=(filter,)).start()
+
+while running_threads > 0:
+    pass
 
 for filter in stats:
     x = np.arange(1,len(stats[filter]) + 1)
