@@ -31,5 +31,6 @@
     "uBlock filters - Resource abuse": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
     "uBlock filters - Link shorteners": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubo-link-shorteners.txt",
     "uBO Lite filters": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubol-filters.txt",
-    "uBlock filters - Unbreak": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt"
+    "uBlock filters - Unbreak": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+    "1Hosts Mini": "https://o0.pages.dev/mini/domains.txt"
 }

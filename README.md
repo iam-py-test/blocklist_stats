@@ -35,5 +35,6 @@ The following filterlists are monitored:
 - uBlock filters - Link shorteners
 - uBO Lite filters
 - uBlock filters - Unbreak
+- 1Hosts Mini
 
 Code is under CC0. Filterlists are under their own licenses.
