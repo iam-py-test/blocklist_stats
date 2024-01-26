@@ -20,7 +20,7 @@ except:
 
 running_threads = 0
 
-def count_filters(filter):
+def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
     global stats
     global running_threads
     running_threads += 1
@@ -30,18 +30,28 @@ def count_filters(filter):
             stats[filter] = []
         numfilters = 0
         done = []
-        for l in fcontents:
-            if l == "" or l.startswith("#") or l.startswith("!") or l in done:
-                continue
-            done.append(l)
-            numfilters += 1
+        if trust_line_count:
+            numfilters = len(fcontents) - exclude_from_line_count
+        else:
+            for l in fcontents:
+                if l == "" or l.startswith("#") or l.startswith("!") or l in done:
+                    continue
+                done.append(l)
+                numfilters += 1
         stats[filter].append(numfilters)
     except Exception as err:
         print(err)
     running_threads -= 1
 
+trust_lines = {
+    "1Hosts Mini": 18,
+    "HaGeZi's Light DNS Blocklist": 11
+}
+
 for filter in filterlists:
-    threading.Thread(target=count_filters, args=(filter,)).start()
+    if filter not in trust_lines:
+        trust_lines[filter] = 0
+    threading.Thread(target=count_filters, args=(filter, trust_lines[filter] != 0, trust_lines[filter])).start()
 
 while running_threads > 0:
     pass
