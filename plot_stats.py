@@ -87,3 +87,10 @@ try:
 except Exception as err:
     print(err)
 
+try:
+    outstats = open("change_stats.json", 'w')
+    outstats.write(json.dumps(change_stats))
+    outstats.close()
+except Exception as err:
+    print(err)
+
