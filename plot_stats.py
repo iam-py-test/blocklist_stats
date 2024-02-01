@@ -101,9 +101,9 @@ for filter in size_stats:
     y = np.array(size_stats[filter])
 
     filtername = filter.replace(" ","_").replace("'","").replace("+","_")
-    plt.title(f"Number of unique filters in {filter}")
+    plt.title(f"Size (in bytes) of {filter}")
     plt.xlabel("Time")
-    plt.ylabel("Filters")
+    plt.ylabel("Size")
     plt.plot(x, y, color ="green")
     plt.savefig(f"size_stats/{filtername}.png")
     plt.clf()
