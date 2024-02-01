@@ -15,6 +15,11 @@ except:
     pass
 
 try:
+    os.mkdir("size_stats")
+except:
+    pass
+
+try:
     stats = json.loads(open('stats.json', 'r', encoding='utf-8').read())
 except:
     stats = {}
@@ -25,11 +30,19 @@ except:
     change_stats = {
     }
 
+try:
+    size_stats = json.loads(open("size_stats.json", 'r').read())
+except:
+    size_stats = {
+    }
+
 running_threads = 0
 
 def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
     global stats
     global running_threads
+    global change_stats
+    global size_stats
     running_threads += 1
     try:
         freq = requests.get(filterlists[filter])
@@ -39,7 +52,10 @@ def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
             stats[filter] = []
         if filter not in change_stats:
             change_stats[filter] = []
+        if filter not in size_stats:
+            size_stats[filter] = []
         change_stats[filter].append(fhash)
+        size_stats[filter].append(len(freq.content))
         numfilters = 0
         done = []
         if trust_line_count:
@@ -80,6 +96,18 @@ for filter in stats:
     plt.savefig(f"stats/{filtername}.png")
     plt.clf()
 
+for filter in size_stats:
+    x = np.arange(1,len(size_stats[filter]) + 1)
+    y = np.array(size_stats[filter])
+
+    filtername = filter.replace(" ","_").replace("'","").replace("+","_")
+    plt.title(f"Number of unique filters in {filter}")
+    plt.xlabel("Time")
+    plt.ylabel("Filters")
+    plt.plot(x, y, color ="green")
+    plt.savefig(f"size_stats/{filtername}.png")
+    plt.clf()
+
 try:
     outstats = open("stats.json", 'w')
     outstats.write(json.dumps(stats))
@@ -90,6 +118,13 @@ except Exception as err:
 try:
     outstats = open("change_stats.json", 'w')
     outstats.write(json.dumps(change_stats))
+    outstats.close()
+except Exception as err:
+    print(err)
+
+try:
+    outstats = open("size_stats.json", 'w')
+    outstats.write(json.dumps(size_stats))
     outstats.close()
 except Exception as err:
     print(err)
