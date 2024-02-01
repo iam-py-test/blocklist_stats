@@ -5,6 +5,7 @@ import json
 import os
 import requests
 import threading
+import hashlib
 
 filterlists = json.loads(open('filterlists.json').read())
 
@@ -18,6 +19,12 @@ try:
 except:
     stats = {}
 
+try:
+    change_stats = json.loads(open("change_stats.json", 'r').read())
+except:
+    change_stats = {
+    }
+
 running_threads = 0
 
 def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
@@ -25,9 +32,14 @@ def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
     global running_threads
     running_threads += 1
     try:
-        fcontents = requests.get(filterlists[filter]).text.replace("\r\n", "\n").split("\n")
+        freq = requests.get(filterlists[filter])
+        fhash = hashlib.md5(freq.content).hexdigest()
+        fcontents = freq.text.replace("\r\n", "\n").split("\n")
         if filter not in stats:
             stats[filter] = []
+        if filter not in change_stats:
+            change_stats[filter] = []
+        change_stats[filter].append(fhash)
         numfilters = 0
         done = []
         if trust_line_count:
@@ -60,7 +72,7 @@ for filter in stats:
     x = np.arange(1,len(stats[filter]) + 1)
     y = np.array(stats[filter])
 
-    filtername = filter.replace(" ","_").replace("'","")
+    filtername = filter.replace(" ","_").replace("'","").replace("+","_")
     plt.title(f"Number of unique filters in {filter}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
