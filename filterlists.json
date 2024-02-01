@@ -32,5 +32,6 @@
     "uBlock filters - Link shorteners": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubo-link-shorteners.txt",
     "uBO Lite filters": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubol-filters.txt",
     "uBlock filters - Unbreak": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
-    "1Hosts Mini": "https://o0.pages.dev/mini/domains.txt"
+    "1Hosts Mini": "https://o0.pages.dev/mini/domains.txt",
+    "VXVault filterlist (unofficial)": "https://raw.githubusercontent.com/iam-py-test/vxvault_filter/main/ubolist_full.txt"
 }
