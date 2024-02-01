@@ -36,5 +36,9 @@ The following filterlists are monitored:
 - uBO Lite filters
 - uBlock filters - Unbreak
 - 1Hosts Mini
+- VXVault filterlist (unofficial)
+- Online Malicious URL Blocklist (AdGuard)
+- AdGuard Russian (Firefox)
+- AdGuard Base + EasyList
 
 Code is under CC0. Filterlists are under their own licenses.
