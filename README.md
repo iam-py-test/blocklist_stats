@@ -40,5 +40,6 @@ The following filterlists are monitored:
 - Online Malicious URL Blocklist (AdGuard)
 - AdGuard Russian (Firefox)
 - AdGuard Base + EasyList
+- Peter Lowe's Ad and tracking server list
 
 Code is under CC0. Filterlists are under their own licenses.

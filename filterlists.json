@@ -36,5 +36,6 @@
     "VXVault filterlist (unofficial)": "https://raw.githubusercontent.com/iam-py-test/vxvault_filter/main/ubolist_full.txt",
     "Online Malicious URL Blocklist (AdGuard)": "https://curbengh.github.io/malware-filter/urlhaus-filter-ag-online.txt",
     "AdGuard Russian (Firefox)": "https://filters.adtidy.org/extension/firefox/filters/1.txt",
-    "AdGuard Base + EasyList": "https://filters.adtidy.org/extension/firefox/filters/2.txt"
+    "AdGuard Base + EasyList": "https://filters.adtidy.org/extension/firefox/filters/2.txt",
+    "Peter Lowe's Ad and tracking server list": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
 }

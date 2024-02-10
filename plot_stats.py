@@ -73,7 +73,8 @@ def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
 
 trust_lines = {
     "1Hosts Mini": 18,
-    "HaGeZi's Light DNS Blocklist": 11
+    "HaGeZi's Light DNS Blocklist": 11,
+    "Peter Lowe's Ad and tracking server list": 14,
 }
 
 for filter in filterlists:
