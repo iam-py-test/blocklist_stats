@@ -41,5 +41,6 @@ The following filterlists are monitored:
 - AdGuard Russian (Firefox)
 - AdGuard Base + EasyList
 - Peter Lowe's Ad and tracking server list
+- Honey Smart Shopping (malicious)
 
 Code is under CC0. Filterlists are under their own licenses.
