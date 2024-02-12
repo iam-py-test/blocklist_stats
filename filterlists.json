@@ -38,5 +38,7 @@
     "AdGuard Russian (Firefox)": "https://filters.adtidy.org/extension/firefox/filters/1.txt",
     "AdGuard Base + EasyList": "https://filters.adtidy.org/extension/firefox/filters/2.txt",
     "Peter Lowe's Ad and tracking server list": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
-    "Honey Smart Shopping": "https://www.joinhoney.com/whitelist/honey-smart-shopping.txt"
+    "Honey Smart Shopping": "https://www.joinhoney.com/whitelist/honey-smart-shopping.txt",
+    "Liste FR": "https://raw.githubusercontent.com/easylist/listefr/master/liste_fr.txt",
+    "Phishing URL Blocklist": "https://phishing-filter.pages.dev/phishing-filter.txt"
 }

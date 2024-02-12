@@ -42,5 +42,7 @@ The following filterlists are monitored:
 - AdGuard Base + EasyList
 - Peter Lowe's Ad and tracking server list
 - Honey Smart Shopping (malicious)
+- Liste FR
+- Phishing URL Blocklist
 
 Code is under CC0. Filterlists are under their own licenses.
