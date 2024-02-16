@@ -101,7 +101,7 @@ while running_threads > 0:
 for filter in stats:
     filter_items = dict_as_arr(stats[filter])
     x = np.arange(1,len(filter_items) + 1)
-    y = np.array(stats[filter])
+    y = np.array(filter_items)
 
     filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "")
     plt.title(f"Number of unique filters in {filter}")
