@@ -48,5 +48,9 @@
     "AdGuard URL Tracking filter (uBlock Origin version)": "https://filters.adtidy.org/extension/ublock/filters/17.txt",
     "AdGuard Japanese filter Plus": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt",
     "AdGuard Japanese filter Plus (uBo module)": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ub.txt",
-    "AdGuard Japanese filter Plus (AdGuard module)": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ag.txt"
+    "AdGuard Japanese filter Plus (AdGuard module)": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ag.txt",
+    "ABPindo": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+    "AdBlockID": "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt",
+    "AdBlockID Plus": "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt",
+    "Bulgarian adblock list": "https://stanev.org/abp/adblock_bg.txt"
 }
