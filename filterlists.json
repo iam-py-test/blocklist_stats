@@ -52,5 +52,13 @@
     "ABPindo": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
     "AdBlockID": "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt",
     "AdBlockID Plus": "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt",
-    "Bulgarian adblock list": "https://stanev.org/abp/adblock_bg.txt"
+    "Bulgarian adblock list": "https://stanev.org/abp/adblock_bg.txt",
+    "AWAvenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "Dan Pollock's Someone Who Cares": "https://someonewhocares.org/hosts/hosts",
+    "Official Polish Filters for AdBlock, uBlock Origin & AdGuard": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+    "Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock_ublock.txt",
+    "Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for AdGuard": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock_adguard.txt",
+    "OISD Small": "https://small.oisd.nl/",
+    "OISD Big": "https://big.oisd.nl/",
+    "OISD NSFW": "https://nsfw.oisd.nl/"
 }

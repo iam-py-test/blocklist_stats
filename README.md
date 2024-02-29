@@ -44,5 +44,26 @@ The following filterlists are monitored:
 - Honey Smart Shopping (malicious)
 - Liste FR
 - Phishing URL Blocklist
+- Scam Blocklist by DurableNapkin
+- Fuck Fuckadblock
+- Fuck Fuckadblock: Mining
+- abuse.ch URLhaus Host file
+- AdGuard URL Tracking filter (uBlock Origin version)
+- AdGuard Japanese filter Plus
+  - AdGuard Japanese filter Plus (uBo module)
+  - AdGuard Japanese filter Plus (AdGuard module)
+- ABPindo
+- AdBlockID
+- AdBlockID Plus
+- Bulgarian adblock list
+- AWAvenue
+- Dan Pollock's Someone Who Cares
+- Official Polish Filters for AdBlock, uBlock Origin & AdGuard
+  - Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin
+  - Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for AdGuard
+- All three OISD versions
+  - OISD Big
+  - OISD Small
+  - OISD NSFW
 
 Code is under CC0. Filterlists are under their own licenses.

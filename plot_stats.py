@@ -88,6 +88,9 @@ trust_lines = {
     "1Hosts Mini": 18,
     "HaGeZi's Light DNS Blocklist": 11,
     "Peter Lowe's Ad and tracking server list": 14,
+    "OISD Small": 12,
+    "OISD Big": 12,
+    "OISD NSFW": 12
 }
 
 for filter in filterlists:
@@ -103,7 +106,7 @@ for filter in stats:
     x = np.arange(1,len(filter_items) + 1)
     y = np.array(filter_items)
 
-    filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "")
+    filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "").replace("&", "")
     plt.title(f"Number of unique filters in {filter}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
