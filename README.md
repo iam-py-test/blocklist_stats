@@ -65,5 +65,29 @@ The following filterlists are monitored:
   - OISD Big
   - OISD Small
   - OISD NSFW
+- ABPVN List
+  - ABPVN List uBlock
+  - ABPVN List AdGuard
+  - ABPVN List content blocker
+  - ABPVN (no element hiding)
+- AdGuard Turkish (uBlock version)
+- EasyList Thailand
+- Slovenian List
+- AdGuard Spanish/Portuguese filter (uBlock)
+- Romanian Ad (ROad) Block List Light
+- AdGuard Japanese filter
+- EasyList Hebrew
+- Icelandic ABP List
+- Greek AdBlock Filter
+- AdGuard French filter
+- Hufilter
+  - Hufilter Basic
+  - Hufilter for ABP
+  - Hufilter for uBO
+  - Hufilter for AdGuard
+  - Hufilter Self-promotions
+  - Hufilter DNS
+  - Hufilter Pi-hole
+- Ukrainian Security Filter (clean version, domains only)
 
 Code is under CC0. Filterlists are under their own licenses.

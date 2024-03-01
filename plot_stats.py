@@ -119,7 +119,7 @@ for filter in size_stats:
     x = np.arange(1,len(filter_items) + 1)
     y = np.array(filter_items)
 
-    filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "")
+    filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "").replace("/","_")
     plt.title(f"Size (in bytes) of {filter}")
     plt.xlabel("Time")
     plt.ylabel("Size")
