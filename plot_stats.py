@@ -96,6 +96,7 @@ trust_lines = {
 for filter in filterlists:
     if filter not in trust_lines:
         trust_lines[filter] = 0
+    print(f"Looking at {filter} (trust lines {trust_lines[filter]})")
     threading.Thread(target=count_filters, args=(filter, trust_lines[filter] != 0, trust_lines[filter])).start()
 
 while running_threads > 0:
