@@ -86,5 +86,8 @@
     "Hufilter DNS": "https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt",
     "Hufilter Pi-hole": "https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-pihole.txt",
     "Ukrainian Security Filter (clean version, domains only)": "https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt",
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt",
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+    "HaGeZi's The World's Most Abused TLDs": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
     "The malicious website blocklist": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt"
 }

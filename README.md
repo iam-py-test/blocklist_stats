@@ -89,5 +89,8 @@ The following filterlists are monitored:
   - Hufilter DNS
   - Hufilter Pi-hole
 - Ukrainian Security Filter (clean version, domains only)
+- HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version
+- HaGeZi's Threat Intelligence Feeds DNS Blocklist
+- HaGeZi's The World's Most Abused TLDs
 
 Code is under CC0. Filterlists are under their own licenses.

@@ -90,7 +90,9 @@ trust_lines = {
     "Peter Lowe's Ad and tracking server list": 14,
     "OISD Small": 12,
     "OISD Big": 12,
-    "OISD NSFW": 12
+    "OISD NSFW": 12,
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist": 11,
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": 11
 }
 
 for filter in filterlists:
