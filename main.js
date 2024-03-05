@@ -10,6 +10,13 @@ async function getAllFilters(){
     return filterdata;
 }
 
+async function getAllFiltersData(){
+    let filter_stats = await (await fetch("stats.json")).json();
+    let filter_size_stats = await (await fetch("size_stats.json")).json();
+    let filter_change_stats = await (await fetch("change_stats.json")).json();
+    
+}
+
 (async function(){
     const filter_imgs = document.getElementById("filter_imgs");
     let filterdata = await getAllFilters();
@@ -22,9 +29,14 @@ async function getAllFilters(){
         let filterTitle = document.createElement("p");
         filterTitle.textContent = realName;
         filterCont.appendChild(filterTitle);
+        let filterImgCont = document.createElement("details");
+        let filterImgSummary = document.createElement("summary");
+        filterImgSummary.textContent = "View graph"
+        filterImgCont.appendChild(filterImgSummary)
         let filterImg = document.createElement("img");
         filterImg.src = `stats/${filter}.png`
-        filterCont.appendChild(filterImg);
+        filterImgCont.appendChild(filterImg);
+        filterCont.appendChild(filterImgCont);
         filter_imgs.appendChild(filterCont);
     })
 })();
