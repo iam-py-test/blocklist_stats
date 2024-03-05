@@ -115,5 +115,6 @@ The following filterlists are monitored:
 - NoAds X Files
 - iam-py-test's antitypo list
 - Anti-redirectors and url shorteners
+- Fanboy's Agegate List
 
 Code is under CC0. Filterlists are under their own licenses.
