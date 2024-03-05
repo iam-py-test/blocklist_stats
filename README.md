@@ -1,5 +1,12 @@
 # Filterlist stats
 Statistics on various filterlists.
+
+This project serves several purposes:
+- One can not make decisions without data.
+This project aims to provide content filter developers and policy makers with valuable information on the status of various filterlists, such as how often filterlists are updated.
+- See trends and interesting events
+By graphing the number of filters in a list, one can see when a large number of filters is added or remove
+
 The following filterlists are monitored:
 - EasyList
 - Easylist Cookie List
@@ -16,6 +23,7 @@ The following filterlists are monitored:
 - Dandelion Sprout's Website Stretcher
 - Dandelion Sprout's Nordic filters for tidier websites
 - The malicious website blocklist
+  - The malicious website blocklist (lite)
 - uBlock filters - Cookie Notices
 - uBlock filters - Other Annoyances
 - uBlock filters - Badware risks
@@ -92,5 +100,20 @@ The following filterlists are monitored:
 - HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version
 - HaGeZi's Threat Intelligence Feeds DNS Blocklist
 - HaGeZi's The World's Most Abused TLDs
+- Brave Unbreak
+- AlleBlockV2
+- Frellwit's Swedish Filter
+  - Frellwit's Swedish Hosts File
+- YousList
+  - YousList (hosts)
+- ROLIST - Romanian Adblock List
+  - ROLIST2
+- 乘风 广告过滤规则
+- CJX's Annoyance List
+- Polskie Filtry RODO-Ciasteczkowe
+- Adblock Warning Removal List
+- NoAds X Files
+- iam-py-test's antitypo list
+- Anti-redirectors and url shorteners
 
 Code is under CC0. Filterlists are under their own licenses.
