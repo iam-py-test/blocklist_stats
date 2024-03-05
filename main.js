@@ -18,7 +18,7 @@ async function getAllFilters(){
     filternames.forEach((filter) => safefilternames.push(safeFilterName(filter)));
     safefilternames.forEach((filter) => {
         let filterCont = document.createElement("div");
-        let realName = filternames[safefilternames.index(filter)];
+        let realName = filternames[safefilternames.indexOf(filter)];
         let filterTitle = document.createElement("p");
         filterTitle.textContent = realName;
         filterCont.appendChild(filterTitle);
