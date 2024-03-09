@@ -70,6 +70,8 @@
     "Slovenian List": "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt",
     "AdGuard Spanish/Portuguese filter (uBlock)": "https://filters.adtidy.org/extension/ublock/filters/9.txt",
     "Romanian Ad (ROad) Block List Light": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+    "Romanian specific uBO filters": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-ubo.txt",
+    "ROU: Romanian Ad (ROad) Block List": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt",
     "AdGuard Japanese filter": "https://filters.adtidy.org/extension/ublock/filters/7.txt",
     "EasyList Hebrew": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
     "Icelandic ABP List": "https://adblock.gardar.net/is.abp.txt",
