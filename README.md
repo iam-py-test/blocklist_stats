@@ -116,5 +116,10 @@ The following filterlists are monitored:
 - iam-py-test's antitypo list
 - Anti-redirectors and url shorteners
 - Fanboy's Agegate List
+- Jarelllama's Scam Blocklist
+- Sinfonietta
+  - Gambling hosts
+  - Pornography hosts
+  - Social media hosts
 
 Code is under CC0. Filterlists are under their own licenses.
