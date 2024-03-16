@@ -112,6 +112,11 @@
     "Sinfonietta Gambling hosts": "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts",
     "Sinfonietta Pornography hosts": "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts",
     "Sinfonietta Social Media hosts": "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/social-hosts",
+    "yokoffing's Annoyance List": "https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt",
+    "Block third party fonts": "https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt",
+    "YouTube Clear View": "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
+    "Privacy Essentials": "https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt",
+    "ClearURLs for uBo (unofficial)": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt",
     "The malicious website blocklist (lite)": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt",
     "The malicious website blocklist": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt"
 }

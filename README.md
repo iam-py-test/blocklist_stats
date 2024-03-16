@@ -121,5 +121,11 @@ The following filterlists are monitored:
   - Gambling hosts
   - Pornography hosts
   - Social media hosts
+- yokoffing's filterlists
+  - yokoffing's Annoyance List
+  - Block third party fonts
+  - YouTube Clear View
+  - Privacy Essentials
+- ClearURLs for uBo (unofficial)
 
 Code is under CC0. Filterlists are under their own licenses.
