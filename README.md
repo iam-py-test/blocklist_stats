@@ -127,5 +127,6 @@ The following filterlists are monitored:
   - YouTube Clear View
   - Privacy Essentials
 - ClearURLs for uBo (unofficial)
+- NoCoin Filter List
 
 Code is under CC0. Filterlists are under their own licenses.
