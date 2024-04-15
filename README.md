@@ -117,6 +117,7 @@ The following filterlists are monitored:
 - Anti-redirectors and url shorteners
 - Fanboy's Agegate List
 - Jarelllama's Scam Blocklist
+  - Jarelllama's Scam Blocklist LIGHT VERSION
 - Sinfonietta
   - Gambling hosts
   - Pornography hosts
