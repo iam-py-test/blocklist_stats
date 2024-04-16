@@ -13,7 +13,42 @@ The following filterlists are monitored:
 - EasyPrivacy
 - Fanboy's Annoyance List
 - Fanboy's Social Blocking List
-- HaGeZi's Light DNS Blocklist
+- HaGeZi's DNS Blocklists
+  - HaGeZi's Light DNS Blocklist
+  - HaGeZi's Normal DNS Blocklist
+  - HaGeZi's Pro DNS Blocklist
+    - HaGeZi's Pro mini DNS/Browser Blocklist
+  - HaGeZi's Pro++ DNS Blocklist
+    - HaGeZi's Pro++ mini DNS/Browser Blocklist
+  - HaGeZi's Ultimate DNS Blocklist
+    - HaGeZi's Ultimate mini DNS/Browser Blocklist
+  - HaGeZi's Fake DNS Blocklist
+  - HaGeZi's Pop-Up Ads DNS Blocklist
+  - HaGeZi's NRD 10 DNS Blocklist
+    - HaGeZi's NRD 30 DNS Blocklist
+  - HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
+    - HaGeZi's Encrypted DNS Bypass DNS Blocklist
+    - HaGeZi's Encrypted DNS Bypass DNS Blocklist (ips)
+  - HaGeZi's safesearch not supported DNS Blocklist
+  - HaGeZi's DynDNS Blocklist
+  - HaGeZi's Badware Hoster DNS Blocklist
+  - HaGeZi's Anti-Piracy DNS Blocklist
+  - HaGeZi's Gambling DNS Blocklist
+  - HaGeZi's native tracker lists
+    - HaGeZi's Amazon Tracker DNS Blocklist
+    - HaGeZi's Apple Tracker DNS Blocklist
+    - HaGeZi's Huawei Tracker DNS Blocklist
+    - HaGeZi's Windows/Office Tracker DNS Blocklist
+    - HaGeZi's TikTok Fingerprinting DNS Blocklist
+      - HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
+    - HaGeZi's LG webOS Tracker DNS Blocklist
+    - HaGeZi's Vivo Tracker DNS Blocklist
+    - HaGeZi's OPPO & Realme Tracker DNS Blocklist
+    - HaGeZi's Xiaomi Tracker DNS Blocklist
+  - HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version
+  - HaGeZi's Threat Intelligence Feeds DNS Blocklist
+  - HaGeZi's Threat Intelligence Feeds - IPs
+  - HaGeZi's The World's Most Abused TLDs
 - Actually Legitimate URL Shortener Tool
 - I Don't Want to Download Your Browser
 - Ad Removal List for Unusual Ads
@@ -97,9 +132,6 @@ The following filterlists are monitored:
   - Hufilter DNS
   - Hufilter Pi-hole
 - Ukrainian Security Filter (clean version, domains only)
-- HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version
-- HaGeZi's Threat Intelligence Feeds DNS Blocklist
-- HaGeZi's The World's Most Abused TLDs
 - Brave Unbreak
 - AlleBlockV2
 - Frellwit's Swedish Filter

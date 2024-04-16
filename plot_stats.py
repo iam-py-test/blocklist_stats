@@ -83,16 +83,50 @@ def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
     except Exception as err:
         print(err)
     running_threads -= 1
+"""
+for these lists, the script does not go through every filter
+instead, it just checks the line count and subtracts the number of comments/empty lines listed below
+this is for large lists who only have comments in their header
+"""
 
 trust_lines = {
     "1Hosts Mini": 18,
     "HaGeZi's Light DNS Blocklist": 11,
+    "HaGeZi's Normal DNS Blocklist": 11,
+    "HaGeZi's Pro DNS Blocklist": 11,
+    "HaGeZi's Pro mini DNS/Browser Blocklist": 12,
+    "HaGeZi's Pro++ DNS Blocklist": 11,
+    "HaGeZi's Pro++ mini DNS/Browser Blocklist": 12,
+    "HaGeZi's Ultimate DNS Blocklist": 11,
+    "HaGeZi's Ultimate mini DNS/Browser Blocklist": 12,
+    "HaGeZi's Fake DNS Blocklist": 11,
+    "HaGeZi's Pop-Up Ads DNS Blocklist": 11,
+    "HaGeZi's NRD 10 DNS Blocklist": 11,
+    "HaGeZi's NRD 30 DNS Blocklist": 11,
+    "HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist": 11,
+    "HaGeZi's Encrypted DNS Bypass DNS Blocklist": 11,
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist": 11,
+    "HaGeZi's safesearch not supported DNS Blocklist": 11,
+    "HaGeZi's DynDNS Blocklist": 11,
+    "HaGeZi's Badware Hoster DNS Blocklist": 11,
+    "HaGeZi's Anti-Piracy DNS Blocklist": 11,
+    "HaGeZi's Gambling DNS Blocklist": 11,
+    "HaGeZi's Amazon Tracker DNS Blocklist": 11,
+    "HaGeZi's Apple Tracker DNS Blocklist": 11,
+    "HaGeZi's Huawei Tracker DNS Blocklist": 11,
+    "HaGeZi's Windows/Office Tracker DNS Blocklist": 11,
+    "HaGeZi's TikTok Fingerprinting DNS Blocklist": 11,
+    "HaGeZi's TikTok Extended Fingerprinting DNS Blocklist": 11,
+    "HaGeZi's LG webOS Tracker DNS Blocklist": 11,
+    "HaGeZi's Vivo Tracker DNS Blocklist": 11,
+    "HaGeZi's OPPO & Realme Tracker DNS Blocklist": 11,
+    "HaGeZi's Xiaomi Tracker DNS Blocklist": 11,
+    "HaGeZi's Threat Intelligence Feeds - IPs": 0,
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": 11
     "Peter Lowe's Ad and tracking server list": 14,
     "OISD Small": 12,
     "OISD Big": 12,
     "OISD NSFW": 12,
-    "HaGeZi's Threat Intelligence Feeds DNS Blocklist": 11,
-    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": 11
 }
 
 for filter in filterlists:
