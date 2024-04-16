@@ -122,7 +122,7 @@ trust_lines = {
     "HaGeZi's OPPO & Realme Tracker DNS Blocklist": 11,
     "HaGeZi's Xiaomi Tracker DNS Blocklist": 11,
     "HaGeZi's Threat Intelligence Feeds - IPs": 0,
-    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": 11
+    "HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version": 11,
     "Peter Lowe's Ad and tracking server list": 14,
     "OISD Small": 12,
     "OISD Big": 12,
