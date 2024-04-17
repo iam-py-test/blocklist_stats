@@ -150,6 +150,7 @@ The following filterlists are monitored:
 - Fanboy's Agegate List
 - Jarelllama's Scam Blocklist
   - Jarelllama's Scam Blocklist LIGHT VERSION
+- Jarelllama's NSFW Blocklist
 - Sinfonietta
   - Gambling hosts
   - Pornography hosts
