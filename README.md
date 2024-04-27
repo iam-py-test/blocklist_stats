@@ -162,5 +162,7 @@ The following filterlists are monitored:
   - Privacy Essentials
 - ClearURLs for uBo (unofficial)
 - NoCoin Filter List
+- (Unofficial) Emerging Threats PiHole blocklist
+- (Unofficial) Emerging Threats Blocklist (jarelllama)
 
 Code is under CC0. Filterlists are under their own licenses.
