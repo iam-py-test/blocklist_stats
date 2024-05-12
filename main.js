@@ -39,8 +39,8 @@ async function getAllFiltersData(){
         try{
             let filterStatInfo = document.createElement('p');
             let filterChecks = Object.keys(window.filter_stats[filter]);
-            let numFilters = window.filter_stats[filter][filterChecks[-1]];
-            let changedFilters = window.filter_stats[filter][filterChecks[-1]] - window.filter_stats[filter][filterChecks[-2]];
+            let numFilters = window.filter_stats[filter][filterChecks[filterChecks.length-1]];
+            let changedFilters = window.filter_stats[filter][filterChecks[filterChecks.length-1]] - window.filter_stats[filter][filterChecks[filterChecks.length-2]];
             let changedFiltersText = "";
             if(changedFilters === 0){
                 changedFiltersText = " (no filters added or removed)"
