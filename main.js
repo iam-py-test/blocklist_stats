@@ -11,15 +11,15 @@ async function getAllFilters(){
 }
 
 async function getAllFiltersData(){
-    let filter_stats = await (await fetch("stats.json")).json();
-    let filter_size_stats = await (await fetch("size_stats.json")).json();
-    let filter_change_stats = await (await fetch("change_stats.json")).json();
-    
+    window.filter_stats = await (await fetch("stats.json")).json();
+    window.filter_size_stats = await (await fetch("size_stats.json")).json();
+    window.filter_change_stats = await (await fetch("change_stats.json")).json();
 }
 
 (async function(){
     const filter_imgs = document.getElementById("filter_imgs");
     let filterdata = await getAllFilters();
+    await getAllFiltersData();
     let safefilternames = [];
     let filternames = Object.keys(filterdata);
     filternames.forEach((filter) => safefilternames.push(safeFilterName(filter)));
@@ -36,6 +36,27 @@ async function getAllFiltersData(){
         let filterImg = document.createElement("img");
         filterImg.src = `stats/${filter}.png`
         filterImgCont.appendChild(filterImg);
+        try{
+            let filterStatInfo = document.createElement('p');
+            let filterChecks = Object.keys(window.filter_stats[filter]);
+            let numFilters = window.filter_stats[filter][filterChecks[-1]];
+            let changedFilters = window.filter_stats[filter][filterChecks[-1]] - window.filter_stats[filter][filterChecks[-2]];
+            let changedFiltersText = "";
+            if(changedFilters === 0){
+                changedFiltersText = " (no filters added or removed)"
+            }
+            if(changedFilters > 0){
+                changedFiltersText = ` (${changedFilters} added filters)`
+            }
+            if(changedFilters < 0){
+                changedFiltersText = ` (${Math.abs(changedFilters)} removed filters)`
+            }
+            filterStatInfo.textContent = `${numFilters} filters` + changedFiltersText;
+            filterImgCont.appendChild(filterStatInfo)
+        }
+        catch(err){
+            console.trace(`Failed to get filterStatInfo for ${filter} due to ${err}`)
+        }
         filterCont.appendChild(filterImgCont);
         filter_imgs.appendChild(filterCont);
     })
