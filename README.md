@@ -164,5 +164,13 @@ The following filterlists are monitored:
 - NoCoin Filter List
 - (Unofficial) Emerging Threats PiHole blocklist
 - (Unofficial) Emerging Threats Blocklist (jarelllama)
+- EasyDutch
+- AdGuard Dutch
+- Macedonian adBlock Filters
+- Latvian List
+- EasyList Lithuania
+- EasyList Italy
+- Dutch Filter List (JohnyP36)
+- PersianBlocker
 
 Code is under CC0. Filterlists are under their own licenses.
