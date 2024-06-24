@@ -120,6 +120,7 @@
     "Hufilter Self-promotions": "https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-selfpromo.txt",
     "Hufilter DNS": "https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-dns.txt",
     "Hufilter Pi-hole": "https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-pihole.txt",
+    "Hufilter Hosts file": "https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-hosts.txt",
     "Ukrainian Security Filter (clean version, domains only)": "https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt",
     "Brave Unbreak": "https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt",
     "AlleBlockV2": "https://raw.githubusercontent.com/CrusheerPL/AlleBlockV2/master/AlleBlockV2.txt",

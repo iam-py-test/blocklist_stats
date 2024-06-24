@@ -131,6 +131,7 @@ The following filterlists are monitored:
   - Hufilter Self-promotions
   - Hufilter DNS
   - Hufilter Pi-hole
+  - Hufilter Hosts file
 - Ukrainian Security Filter (clean version, domains only)
 - Brave Unbreak
 - AlleBlockV2
