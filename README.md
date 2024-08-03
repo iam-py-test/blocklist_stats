@@ -173,5 +173,6 @@ The following filterlists are monitored:
 - EasyList Italy
 - Dutch Filter List (JohnyP36)
 - PersianBlocker
+- Eesti saitidele kohandatud filter
 
 Code is under CC0. Filterlists are under their own licenses.
