@@ -83,6 +83,7 @@ def count_filters(filter, trust_line_count=False, exclude_from_line_count=0):
     except Exception as err:
         print(err)
     running_threads -= 1
+    print(f"[{datetime.datetime.now()}] {filter} complete")
 """
 for these lists, the script does not go through every filter
 instead, it just checks the line count and subtracts the number of comments/empty lines listed below
@@ -134,7 +135,7 @@ trust_lines = {
 for filter in filterlists:
     if filter not in trust_lines:
         trust_lines[filter] = -1
-    print(f"Looking at {filter} (trust lines {trust_lines[filter]})")
+    print(f"[{datetime.datetime.now()}] Looking at {filter} (trust lines {trust_lines[filter]})")
     threading.Thread(target=count_filters, args=(filter, trust_lines[filter] != -1, trust_lines[filter])).start()
 
 while running_threads > 0:
