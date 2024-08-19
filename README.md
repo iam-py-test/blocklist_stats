@@ -3,9 +3,11 @@ Statistics on various filterlists.
 
 This project serves several purposes:
 - One can not make decisions without data.
+
 This project aims to provide content filter developers and policy makers with valuable information on the status of various filterlists, such as how often filterlists are updated.
 - See trends and interesting events
-By graphing the number of filters in a list, one can see when a large number of filters is added or remove
+
+By graphing the number of filters in a list, one can see when a large number of filters is added or removed.
 
 The following filterlists are monitored:
 - EasyList
@@ -59,32 +61,33 @@ The following filterlists are monitored:
 - Dandelion Sprout's Nordic filters for tidier websites
 - The malicious website blocklist
   - The malicious website blocklist (lite)
-- uBlock filters - Cookie Notices
-- uBlock filters - Other Annoyances
-- uBlock filters - Badware risks
-- uBlock filters - ads
-  - uBlock filters (2020)
-  - uBlock filters (2021)
-  - uBlock filters (2022)
-  - uBlock filters (2023)
-  - uBlock filters (2024)
-  - uBlock filters - Mobile
-  - uBlock filters
-- Block Outsider Intrusion into LAN
-- uBlock filters - Legacy
-- uBlock filters - Privacy
-- uBlock filters - Quick fixes
-- uBlock filters - Resource abuse
-- uBlock filters - Link shorteners
-- uBO Lite filters
-- uBlock filters - Unbreak
+- uBlock Origin's filterlists
+  - uBlock filters - Cookie Notices
+  - uBlock filters - Other Annoyances
+  - uBlock filters - Badware risks
+  - uBlock filters - ads
+    - uBlock filters (2020)
+    - uBlock filters (2021)
+    - uBlock filters (2022)
+    - uBlock filters (2023)
+    - uBlock filters (2024)
+    - uBlock filters - Mobile
+    - uBlock filters
+  - Block Outsider Intrusion into LAN
+  - uBlock filters - Legacy
+  - uBlock filters - Privacy
+  - uBlock filters - Quick fixes
+  - uBlock filters - Resource abuse
+  - uBlock filters - Link shorteners
+  - uBO Lite filters
+  - uBlock filters - Unbreak
 - 1Hosts Mini
 - VXVault filterlist (unofficial)
 - Online Malicious URL Blocklist (AdGuard)
 - AdGuard Russian (Firefox)
 - AdGuard Base + EasyList
 - Peter Lowe's Ad and tracking server list
-- Honey Smart Shopping (malicious)
+- Honey Smart Shopping (malicious)<sup><a href="#note1">[1]</a></sup>
 - Liste FR
 - Phishing URL Blocklist
 - Scam Blocklist by DurableNapkin
@@ -174,5 +177,41 @@ The following filterlists are monitored:
 - Dutch Filter List (JohnyP36)
 - PersianBlocker
 - Eesti saitidele kohandatud filter
+- BlockList Project lists
+  - The Block List Project - Abuse List
+  - The Block List Project - Adobe List
+  - The Block List Project - Ads List
+  - The Block List Project - Basic Starter List
+  - The Block List Project - Crypto List
+  - The Block List Project - Drugs List
+  - The Block List Project - Everything List
+  - The Block List Project - Facebook List
+  - The Block List Project - Fortnite List<sup><a href="#note2">[2]</a></sup>
+  - The Block List Project - Fraud List
+  - The Block List Project - Gambling List
+  - The Block List Project - Malware List
+  - The Block List Project - Phishing List
+  - The Block List Project - Piracy List
+  - The Block List Project - Porn List
+  - The Block List Project - Ransomware List
+  - The Block List Project - Redirect List
+  - The Block List Project - Scam List
+  - The Block List Project - Smart TV List
+  - The Block List Project - TikTok List
+  - The Block List Project - Torrent List
+  - The Block List Project - Tracking List
+  - The Block List Project - Twitter List<sup><a href="#note3">[3]</a></sup>
+  - The Block List Project - Vaping List
+  - The Block List Project - Whatsapp List<sup><a href="#note4">[4]</a></sup>
+  - The Block List Project - Youtube List<sup><a href="#note4">[4]</a></sup>
+
 
 Code is under CC0. Filterlists are under their own licenses.
+
+<sub id='note1'>This filterlist is known to be malicious, or otherwise harmful. It is tracked here to allow policymakers to be informed as to it's status. It is recommended you do not use this filterlist.</sub><br>
+
+<sub id='note2'>This filterlist lacks a name. Therefore, a temporary name has been created, based on the contents and intend of the list, and the naming conventions of the maintainer.</sub>
+
+<sub id='note3'>This filterlist has a name, but the name is unclear, incorrect, incomplete, or likely an error. Another name has been created for the purposes of this project, based on the naming conventions of the maintainer and the purpose of the list.</sub>
+
+<sub id='note4'>This filterlist's name has grammatical or spelling mistakes, or other errors, but has been rendered with errors intact</sub>
