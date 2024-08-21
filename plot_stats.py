@@ -129,7 +129,16 @@ trust_lines = {
     "OISD Big": 12,
     "OISD NSFW": 12,
     "(Unofficial) Emerging Threats PiHole blocklist": 60,
-    "(Unofficial) Emerging Threats Blocklist (jarelllama)": 62
+    "(Unofficial) Emerging Threats Blocklist (jarelllama)": 62,
+    "The Block List Project - Everything List": 16,
+    "The Block List Project - Ads List": 15,
+    "The Block List Project - Abuse List": 15,
+    "The Block List Project - Crypto List": 15,
+    "The Block List Project - Drugs List": 15,
+    "The Block List Project - Fraud List": 19,
+    "The Block List Project - Gambling List": 15,
+    "The Block List Project - Malware List": 27,
+    
 }
 
 for filter in filterlists:
