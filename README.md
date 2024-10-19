@@ -205,6 +205,7 @@ The following filterlists are monitored:
   - The Block List Project - Whatsapp List<sup><a href="#note4">[4]</a></sup>
   - The Block List Project - Youtube List<sup><a href="#note4">[4]</a></sup>
 - Polish GDPR-Cookies Filters
+- Estonian list for uBO Lite
 
 Code is under CC0. Filterlists are under their own licenses.
 
