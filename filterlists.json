@@ -164,7 +164,7 @@
     "The malicious website blocklist (lite)": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt",
     "The malicious website blocklist": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt",
     "The malicious website blocklist (dead)": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/dead.mwbcheck.txt",
-    "Eesti saitidele kohandatud filter": "https://adblock.ee/list.php",
+    "Eesti saitidele kohandatud filter": "https://adblock.ee/list.txt",
     "The Block List Project - Abuse List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt",
     "The Block List Project - Adobe List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/adobe.txt",
     "The Block List Project - Ads List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
