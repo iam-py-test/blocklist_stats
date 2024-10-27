@@ -192,5 +192,6 @@
     "The Block List Project - Whatsapp List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/whatsapp.txt",
     "The Block List Project - Youtube List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt",
     "Polish GDPR-Cookies Filters": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt",
-    "Estonian list for uBO Lite": "https://ubol-et.adblock.ee/list.txt"
+    "Estonian list for uBO Lite": "https://ubol-et.adblock.ee/list.txt",
+    "Kamu/átverős/gyanús/droppshipping webáruházak, ne vásároljon itt!": "https://raw.githubusercontent.com/FakesiteListHUN/FakeWebshopListHUN/refs/heads/main/fakewebshoplist"
 }
