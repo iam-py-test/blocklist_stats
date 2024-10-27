@@ -6,6 +6,7 @@ This project serves several purposes:
 
 This project aims to provide content filter developers and policy makers with valuable information on the status of various filterlists, such as how often filterlists are updated.
 - See trends and interesting events
+- Graphs are cool
 
 By graphing the number of filters in a list, one can see when a large number of filters is added or removed.
 
@@ -206,13 +207,17 @@ The following filterlists are monitored:
   - The Block List Project - Youtube List<sup><a href="#note4">[4]</a></sup>
 - Polish GDPR-Cookies Filters
 - Estonian list for uBO Lite
+- Kamu/átverős/gyanús/droppshipping webáruházak, ne vásároljon itt!<sup><a href="#note5">[5]</a></sup>
 
 Code is under CC0. Filterlists are under their own licenses.
 
-<sub id='note1'>This filterlist is known to be malicious, or otherwise harmful. It is tracked here to allow policymakers to be informed as to it's status. It is recommended you do not use this filterlist.</sub><br>
+<h3>Notes</h3>
+<sub id='note1'>Note 1: This filterlist is known to be malicious, or otherwise harmful. It is tracked here to allow policymakers to be informed as to it's status. It is recommended you do not use this filterlist.</sub><br>
 
-<sub id='note2'>This filterlist lacks a name. Therefore, a temporary name has been created, based on the contents and intend of the list, and the naming conventions of the maintainer.</sub>
+<sub id='note2'>Note 2: This filterlist lacks a name. Therefore, a temporary name has been created, based on the contents and intent of the list, and the naming conventions of the maintainer.</sub>
 
-<sub id='note3'>This filterlist has a name, but the name is unclear, incorrect, incomplete, or likely an error. Another name has been created for the purposes of this project, based on the naming conventions of the maintainer and the purpose of the list.</sub>
+<sub id='note3'>Note 3: This filterlist has a name, but the name is unclear, incorrect, incomplete, or likely an error. Another name has been created for the purposes of this project, based on the naming conventions of the maintainer and the purpose of the list.</sub>
 
-<sub id='note4'>This filterlist's name has grammatical or spelling mistakes, or other errors, but has been rendered with errors intact</sub>
+<sub id='note4'>Note 4: This filterlist's name has grammatical or spelling mistakes, or other errors, but has been rendered with errors intact.</sub>
+
+<sub id="note5">Note 5: The name roughly translates to "Fake/fraudulent/suspicious/droppshipping online stores, don't shop here!" While this is set as the title for the list, this translation makes it seem more like a description. The repository is named FakeWebshopListHUN, which is more like a name and is how [some refer to it](https://github.com/jarelllama/Scam-Blocklist/commit/ac27fe373e61c788b27d9929fc9547f3bfc931b0).</sub>
