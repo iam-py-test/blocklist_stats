@@ -85,8 +85,19 @@ The following filterlists are monitored:
 - 1Hosts Mini
 - VXVault filterlist (unofficial)
 - Online Malicious URL Blocklist (AdGuard)
-- AdGuard Russian (Firefox)
-- AdGuard Base + EasyList
+- AdGuard lists
+  - AdGuard Russian (Firefox)
+  - AdGuard Base + EasyList
+  - AdGuard URL Tracking filter (uBlock Origin version)
+  - AdGuard Japanese filter Plus
+    - AdGuard Japanese filter Plus (uBo module)
+    - AdGuard Japanese filter Plus (AdGuard module)
+  - AdGuard Turkish (uBlock version)
+  - AdGuard Spanish/Portuguese filter (uBlock)
+  - AdGuard Japanese filter
+  - AdGuard French filter
+  - AdGuard Dutch
+  - AdGuard Ukrainian filter
 - Peter Lowe's Ad and tracking server list
 - Honey Smart Shopping (malicious)<sup><a href="#note1">[1]</a></sup>
 - Liste FR
@@ -95,10 +106,6 @@ The following filterlists are monitored:
 - Fuck Fuckadblock
 - Fuck Fuckadblock: Mining
 - abuse.ch URLhaus Host file
-- AdGuard URL Tracking filter (uBlock Origin version)
-- AdGuard Japanese filter Plus
-  - AdGuard Japanese filter Plus (uBo module)
-  - AdGuard Japanese filter Plus (AdGuard module)
 - ABPindo
 - AdBlockID
 - AdBlockID Plus
@@ -117,16 +124,12 @@ The following filterlists are monitored:
   - ABPVN List AdGuard
   - ABPVN List content blocker
   - ABPVN (no element hiding)
-- AdGuard Turkish (uBlock version)
 - EasyList Thailand
 - Slovenian List
-- AdGuard Spanish/Portuguese filter (uBlock)
 - Romanian Ad (ROad) Block List Light
-- AdGuard Japanese filter
 - EasyList Hebrew
 - Icelandic ABP List
 - Greek AdBlock Filter
-- AdGuard French filter
 - Hufilter
   - Hufilter Basic
   - Hufilter for ABP
@@ -170,7 +173,6 @@ The following filterlists are monitored:
 - (Unofficial) Emerging Threats PiHole blocklist
 - (Unofficial) Emerging Threats Blocklist (jarelllama)
 - EasyDutch
-- AdGuard Dutch
 - Macedonian adBlock Filters
 - Latvian List
 - EasyList Lithuania
@@ -208,6 +210,10 @@ The following filterlists are monitored:
 - Polish GDPR-Cookies Filters
 - Estonian list for uBO Lite
 - Kamu/átverős/gyanús/droppshipping webáruházak, ne vásároljon itt!<sup><a href="#note5">[5]</a></sup>
+- "Ukrainian Filters" filterlists
+  - Ukrainian Ad Filter
+  - Ukrainian Privacy Filter
+  - Ukrainian Annoyance Filter
 
 Code is under CC0. Filterlists are under their own licenses.
 
