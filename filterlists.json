@@ -193,5 +193,9 @@
     "The Block List Project - Youtube List": "https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt",
     "Polish GDPR-Cookies Filters": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt",
     "Estonian list for uBO Lite": "https://ubol-et.adblock.ee/list.txt",
-    "Kamu/átverős/gyanús/droppshipping webáruházak, ne vásároljon itt!": "https://raw.githubusercontent.com/FakesiteListHUN/FakeWebshopListHUN/refs/heads/main/fakewebshoplist"
+    "Kamu/átverős/gyanús/droppshipping webáruházak, ne vásároljon itt!": "https://raw.githubusercontent.com/FakesiteListHUN/FakeWebshopListHUN/refs/heads/main/fakewebshoplist",
+    "Ukrainian Ad Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/ads/ads.txt",
+    "Ukrainian Privacy Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/privacy/privacy.txt",
+    "Ukrainian Annoyance Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/annoyances/annoyances.txt",
+    "AdGuard Ukrainian filter": "https://filters.adtidy.org/extension/ublock/filters/23.txt"
 }
