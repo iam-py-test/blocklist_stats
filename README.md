@@ -10,6 +10,8 @@ This project aims to provide content filter developers and policy makers with va
 
 By graphing the number of filters in a list, one can see when a large number of filters is added or removed.
 
+Disclaimer: inclusion is not recommendation. These graphs are not licensed attorneys. Do not listen to their legal advice.
+
 The following filterlists are monitored:
 - EasyList
 - Easylist Cookie List
@@ -103,8 +105,8 @@ The following filterlists are monitored:
 - Liste FR
 - Phishing URL Blocklist
 - Scam Blocklist by DurableNapkin
-- Fuck Fuckadblock
-- Fuck Fuckadblock: Mining
+- Fuck Fuckadblock<sup><a href="#note6">[6]</a></sup>
+- Fuck Fuckadblock: Mining<sup><a href="#note6">[6]</a></sup>
 - abuse.ch URLhaus Host file
 - ABPindo
 - AdBlockID
@@ -227,3 +229,5 @@ Code is under CC0. Filterlists are under their own licenses.
 <sub id='note4'>Note 4: This filterlist's name has grammatical or spelling mistakes, or other errors, but has been rendered with errors intact.</sub>
 
 <sub id="note5">Note 5: The name roughly translates to "Fake/fraudulent/suspicious/droppshipping online stores, don't shop here!" While this is set as the title for the list, this translation makes it seem more like a description. The repository is named FakeWebshopListHUN, which is more like a name and is how [some refer to it](https://github.com/jarelllama/Scam-Blocklist/commit/ac27fe373e61c788b27d9929fc9547f3bfc931b0).</sub>
+
+<sub id="note6">Note 6: Use not recommended (non-malicious)</sub>
