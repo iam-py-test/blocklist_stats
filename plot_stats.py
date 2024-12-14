@@ -156,7 +156,7 @@ for filter in stats:
     y = np.array(filter_items)
 
     filtername = filter.replace(" ","_").replace("'","").replace("+","_").replace(":", "").replace("*", "").replace("&", "_").replace("/","_")
-    plt.title(f"Number of unique filters in {filter}")
+    plt.title(f"Number of unique filters in {filter.replace('(clean version, domains only)','')}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
     plt.plot(x, y, color ="green")
