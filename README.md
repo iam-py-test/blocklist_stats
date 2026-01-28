@@ -18,6 +18,8 @@ The following filterlists are monitored:
 - EasyPrivacy
 - Fanboy's Annoyance List
 - Fanboy's Social Blocking List
+- EasyList – Anti AI Suggestions
+- EasyList Germany
 - HaGeZi's DNS Blocklists
   - HaGeZi's Light DNS Blocklist
   - HaGeZi's Normal DNS Blocklist

@@ -197,5 +197,7 @@
     "Ukrainian Ad Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/ads/ads.txt",
     "Ukrainian Privacy Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/privacy/privacy.txt",
     "Ukrainian Annoyance Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/annoyances/annoyances.txt",
-    "AdGuard Ukrainian filter": "https://filters.adtidy.org/extension/ublock/filters/23.txt"
+    "AdGuard Ukrainian filter": "https://filters.adtidy.org/extension/ublock/filters/23.txt",
+    "EasyList – Anti AI Suggestions": "https://ublockorigin.pages.dev/thirdparties/easylist-ai.txt",
+    "EasyList Germany": "https://easylist.to/easylistgermany/easylistgermany.txt"
 }
