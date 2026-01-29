@@ -222,6 +222,8 @@ The following filterlists are monitored:
 - LowTechFilter hide farm content from google
 - LowTechFilter nofarm hosts
 - LowTechFilter hosts hosts
+- LowTechFilter TW165 abp
+- FutaFilter Surge<sup><a href="#note7">[7]</a></sup>
 - AWAvenue Ads Rule
 
 Code is under CC0. Filterlists are under their own licenses.
@@ -238,3 +240,5 @@ Code is under CC0. Filterlists are under their own licenses.
 <sub id="note5">Note 5: The name roughly translates to "Fake/fraudulent/suspicious/droppshipping online stores, don't shop here!" While this is set as the title for the list, this translation makes it seem more like a description. The repository is named FakeWebshopListHUN, which is more like a name and is how [some refer to it](https://github.com/jarelllama/Scam-Blocklist/commit/ac27fe373e61c788b27d9929fc9547f3bfc931b0).</sub>
 
 <sub id="note6">Note 6: Use not recommended (non-malicious)</sub>
+
+<sub id="note7">Note 7: The name provided in the filterlist itself is "FutaFilter", while the README lists it as "Surge 語法" (Surge Syntax). Despite the name, this filter is also by the same people as LowTechFilter.</sub>

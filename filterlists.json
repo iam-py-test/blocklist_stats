@@ -204,5 +204,7 @@
     "LowTechFilter hide farm content from google": "https://filter.futa.gg/hide_farm_from_search.txt",
     "LowTechFilter nofarm hosts": "https://filter.futa.gg/nofarm_hosts.txt",
     "LowTechFilter hosts hosts": "https://filter.futa.gg/hosts.txt",
+    "LowTechFilter TW165 abp": "https://filter.futa.gg/TW165_abp.txt",
+    "FutaFilter Surge": "https://filter.futa.gg/Surge/filters.txt",
     "AWAvenue Ads Rule": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
 }
