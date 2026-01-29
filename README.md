@@ -10,7 +10,7 @@ This project aims to provide content filter developers and policy makers with va
 
 By graphing the number of filters in a list, one can see when a large number of filters is added or removed.
 
-Disclaimer: inclusion is not recommendation. These graphs are not licensed attorneys. Do not listen to their legal advice.
+Disclaimer: inclusion is not recommendation.
 
 The following filterlists are monitored:
 - EasyList
