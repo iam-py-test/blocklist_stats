@@ -222,6 +222,7 @@ The following filterlists are monitored:
 - LowTechFilter hide farm content from google
 - LowTechFilter nofarm hosts
 - LowTechFilter hosts hosts
+- AWAvenue Ads Rule
 
 Code is under CC0. Filterlists are under their own licenses.
 
