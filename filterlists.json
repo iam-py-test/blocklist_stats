@@ -199,5 +199,9 @@
     "Ukrainian Annoyance Filter": "https://raw.githubusercontent.com/ukrainianfilters/lists/refs/heads/main/annoyances/annoyances.txt",
     "AdGuard Ukrainian filter": "https://filters.adtidy.org/extension/ublock/filters/23.txt",
     "EasyList – Anti AI Suggestions": "https://ublockorigin.pages.dev/thirdparties/easylist-ai.txt",
-    "EasyList Germany": "https://easylist.to/easylistgermany/easylistgermany.txt"
+    "EasyList Germany": "https://easylist.to/easylistgermany/easylistgermany.txt",
+    "LowTechFilter Filter": "https://filter.futa.gg/filter.txt",
+    "LowTechFilter hide farm content from google": "https://filter.futa.gg/hide_farm_from_search.txt",
+    "LowTechFilter nofarm hosts": "https://filter.futa.gg/nofarm_hosts.txt",
+    "LowTechFilter hosts hosts": "https://filter.futa.gg/hosts.txt"
 }

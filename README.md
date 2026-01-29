@@ -218,6 +218,10 @@ The following filterlists are monitored:
   - Ukrainian Ad Filter
   - Ukrainian Privacy Filter
   - Ukrainian Annoyance Filter
+- LowTechFilter Filter
+- LowTechFilter hide farm content from google
+- LowTechFilter nofarm hosts
+- LowTechFilter hosts hosts
 
 Code is under CC0. Filterlists are under their own licenses.
 
