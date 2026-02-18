@@ -226,6 +226,8 @@ The following filterlists are monitored:
 - FutaFilter Surge<sup><a href="#note7">[7]</a></sup>
 - AWAvenue Ads Rule
 - ThioJoe YouTube Spam List - unofficial filterlist
+- Slickdeals Smarter Shopping<sup><a href="#note1">[1]</a></sup>
+- TopCashback Adblock Whitelist<sup><a href="#note1">[1]</a></sup>
 
 Code is under CC0. Filterlists are under their own licenses.
 
