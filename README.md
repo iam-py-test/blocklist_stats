@@ -228,6 +228,7 @@ The following filterlists are monitored:
 - ThioJoe YouTube Spam List - unofficial filterlist
 - Slickdeals Smarter Shopping<sup><a href="#note1">[1]</a></sup>
 - TopCashback Adblock Whitelist<sup><a href="#note1">[1]</a></sup>
+- Ethan's Facebook Blocklist
 
 Code is under CC0. Filterlists are under their own licenses.
 
