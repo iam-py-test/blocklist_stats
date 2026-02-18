@@ -225,6 +225,7 @@ The following filterlists are monitored:
 - LowTechFilter TW165 abp
 - FutaFilter Surge<sup><a href="#note7">[7]</a></sup>
 - AWAvenue Ads Rule
+- ThioJoe YouTube Spam List - unofficial filterlist
 
 Code is under CC0. Filterlists are under their own licenses.
 

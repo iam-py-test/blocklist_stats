@@ -206,5 +206,6 @@
     "LowTechFilter hosts hosts": "https://filter.futa.gg/hosts.txt",
     "LowTechFilter TW165 abp": "https://filter.futa.gg/TW165_abp.txt",
     "FutaFilter Surge": "https://filter.futa.gg/Surge/filters.txt",
-    "AWAvenue Ads Rule": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
+    "AWAvenue Ads Rule": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "ThioJoe YouTube Spam List - unofficial filterlist": "https://raw.githubusercontent.com/iam-py-test/thiojoe_yt_lists/refs/heads/main/filter.txt"
 }
