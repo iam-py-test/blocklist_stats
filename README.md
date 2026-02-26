@@ -76,6 +76,8 @@ The following filterlists are monitored:
     - uBlock filters (2022)
     - uBlock filters (2023)
     - uBlock filters (2024)
+    - uBlock filters (2025)
+    - uBlock filters (2026)
     - uBlock filters - Mobile
     - uBlock filters
   - Block Outsider Intrusion into LAN

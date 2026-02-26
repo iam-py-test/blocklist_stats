@@ -54,6 +54,8 @@
     "uBlock filters (2022)": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt",
     "uBlock filters (2023)": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt",
     "uBlock filters (2024)": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt",
+    "uBlock filters (2025)": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2025.txt",
+    "uBlock filters (2026)": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters-2026.txt",
     "uBlock filters - Mobile": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-mobile.txt",
     "uBlock filters": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
     "Block Outsider Intrusion into LAN": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt",
