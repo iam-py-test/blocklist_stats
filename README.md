@@ -249,4 +249,4 @@ Code is under CC0. Filterlists are under their own licenses.
 
 <sub id="note7">Note 7: The name provided in the filterlist itself is "FutaFilter", while the README lists it as "Surge 語法" (Surge Syntax). Despite the name, this filter is also by the same people as LowTechFilter.</sub>
 
-<sub id="note8">Note 8: Data collection for this filter [started 26 February 2026](https://github.com/iam-py-test/blocklist_stats/commit/59a44ddd6202fd0c9e9ed592a7998f53c9c74f38), meaning data for all of 2025 has been lost ([the file itself was created in December 2024](https://github.com/uBlockOrigin/uAssets/commit/647c102b5ad35683b45769824ddd418c5a81ced7)).</sub>
+<sub id="note8">Note 8: Data collection for this filter [started 26 February 2026](https://github.com/iam-py-test/blocklist_stats/commit/59a44ddd6202fd0c9e9ed592a7998f53c9c74f38), meaning data for all of 2025 has been lost ([the file itself was created in December 2024](https://github.com/uBlockOrigin/uAssets/commit/647c102b5ad35683b45769824ddd418c5a81ced7), and saw new filters [as soon as the new year started](https://github.com/uBlockOrigin/uAssets/commit/0e605f68cf48151535aec9603c5aeedacde90fcc)).</sub>
