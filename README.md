@@ -29,6 +29,7 @@ The following filterlists are monitored:
     - HaGeZi's Pro++ mini DNS/Browser Blocklist
   - HaGeZi's Ultimate DNS Blocklist
     - HaGeZi's Ultimate mini DNS/Browser Blocklist
+    - HaGeZi's Ultimate DNS Blocklist Hosts Compressed
   - HaGeZi's Fake DNS Blocklist
   - HaGeZi's Pop-Up Ads DNS Blocklist
   - HaGeZi's NRD 10 DNS Blocklist
@@ -52,6 +53,7 @@ The following filterlists are monitored:
     - HaGeZi's Vivo Tracker DNS Blocklist
     - HaGeZi's OPPO & Realme Tracker DNS Blocklist
     - HaGeZi's Xiaomi Tracker DNS Blocklist
+  - HaGeZi's Threat Intelligence Feeds - Mini version
   - HaGeZi's Threat Intelligence Feeds DNS Blocklist - medium version
   - HaGeZi's Threat Intelligence Feeds DNS Blocklist
   - HaGeZi's Threat Intelligence Feeds - IPs
