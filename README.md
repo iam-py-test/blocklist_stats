@@ -4,7 +4,7 @@ Statistics on various filterlists.
 This project serves several purposes:
 - One can not make decisions without data.
 
-This project aims to provide content filter developers and policy makers with valuable information on the status of various filterlists, such as how often filterlists are updated.
+This project aims to provide content filter developers and policy makers with valuable information on the status of various filterlists, such as how often filterlists are updated. For filterlists on GitHub or other version control systems, it is possible to look at the changes to a list. However, seeing trends in the changes by looking at individual commits is difficult. Moreover, some filterlists lack any version control, and some may not even disclose when they were last updated.
 - See trends and interesting events
 - Graphs are cool
 
