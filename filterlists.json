@@ -214,5 +214,8 @@
     "ThioJoe YouTube Spam List - unofficial filterlist": "https://raw.githubusercontent.com/iam-py-test/thiojoe_yt_lists/refs/heads/main/filter.txt",
     "Slickdeals Smarter Shopping": "https://slickdeals.net/attachment/extension/allowlist.txt",
     "TopCashback Adblock Whitelist": "https://www.topcashback.co.uk/misc/AdBlockWhiteList.aspx",
-    "Ethan's Facebook Blocklist": "https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/refs/heads/master/fb.txt"
+    "Ethan's Facebook Blocklist": "https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/refs/heads/master/fb.txt",
+    "BaDomain Oppo/HeyTap": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoOppoHT_hosts.txt",
+    "BaDomain": "https://raw.githubusercontent.com/MDP43140/BaDomain/refs/heads/main/BaDomain.txt",
+    "BaDomain No Malware hosts": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoMalware_hosts.txt"
 }
