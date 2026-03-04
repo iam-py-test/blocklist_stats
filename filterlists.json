@@ -217,5 +217,6 @@
     "Ethan's Facebook Blocklist": "https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/refs/heads/master/fb.txt",
     "BaDomain Oppo/HeyTap": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoOppoHT_hosts.txt",
     "BaDomain": "https://raw.githubusercontent.com/MDP43140/BaDomain/refs/heads/main/BaDomain.txt",
-    "BaDomain No Malware hosts": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoMalware_hosts.txt"
+    "BaDomain No Malware hosts": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoMalware_hosts.txt",
+    "Estonian list for ad blockers": "https://raw.githubusercontent.com/sander85/uBO-et/refs/heads/main/list.txt"
 }

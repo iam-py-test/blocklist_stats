@@ -236,6 +236,7 @@ The following filterlists are monitored:
 - BaDomain
   - BaDomain Oppo/HeyTap
   - BaDomain No Malware hosts
+- Estonian list for ad blockers
 
 Code is under CC0. Filterlists are under their own licenses.
 
