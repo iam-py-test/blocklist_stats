@@ -1,6 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 import matplotlib.colors as allowedcolors
+from matplotlib.ticker import MaxNLocator
 import json
 import os
 import requests
@@ -159,6 +160,7 @@ for filter in stats:
     plt.title(f"Number of unique filters in {filter.replace('(clean version, domains only)','')}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
+    plt.yaxis.set_major_locator(MaxNLocator(integer=True))
     plt.plot(x, y, color ="green")
     plt.savefig(f"stats/{filtername}.png")
     plt.clf()
@@ -196,4 +198,5 @@ try:
     outstats.close()
 except Exception as err:
     print(err)
+
 
