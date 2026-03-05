@@ -160,7 +160,7 @@ for filter in stats:
     plt.title(f"Number of unique filters in {filter.replace('(clean version, domains only)','')}")
     plt.xlabel("Time")
     plt.ylabel("Filters")
-    plt.yaxis.set_major_locator(MaxNLocator(integer=True))
+    plt.yticks(y, y)
     plt.plot(x, y, color ="green")
     plt.savefig(f"stats/{filtername}.png")
     plt.clf()
@@ -198,5 +198,6 @@ try:
     outstats.close()
 except Exception as err:
     print(err)
+
 
 
