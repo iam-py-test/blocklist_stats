@@ -219,5 +219,7 @@
     "BaDomain": "https://raw.githubusercontent.com/MDP43140/BaDomain/refs/heads/main/BaDomain.txt",
     "BaDomain No Malware hosts": "https://raw.githubusercontent.com/mdp43140/BaDomain/main/misc/NoMalware_hosts.txt",
     "Estonian list for ad blockers": "https://raw.githubusercontent.com/sander85/uBO-et/refs/heads/main/list.txt",
-    "Adblock List for Albania and Kosovo": "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt"
+    "Adblock List for Albania and Kosovo": "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt",
+    "Stevo's GenAI Blocklist": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt",
+    "Stevo's GenAI Blocklist Extra": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt"
 }

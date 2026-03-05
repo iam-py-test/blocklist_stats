@@ -238,6 +238,8 @@ The following filterlists are monitored:
   - BaDomain No Malware hosts
 - Estonian list for ad blockers
 - Adblock List for Albania and Kosovo
+- Stevo's GenAI Blocklist
+  - Stevo's GenAI Blocklist Extra
 
 Code is under CC0. Filterlists are under their own licenses.
 
