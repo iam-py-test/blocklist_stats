@@ -221,5 +221,6 @@
     "Estonian list for ad blockers": "https://raw.githubusercontent.com/sander85/uBO-et/refs/heads/main/list.txt",
     "Adblock List for Albania and Kosovo": "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt",
     "Stevo's GenAI Blocklist": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt",
-    "Stevo's GenAI Blocklist Extra": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt"
+    "Stevo's GenAI Blocklist Extra": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt",
+    "Reflect4.me Proxy Blocklist": "https://raw.githubusercontent.com/clsfo/reflect4-blocklist/refs/heads/main/reflect4_domains.txt"
 }

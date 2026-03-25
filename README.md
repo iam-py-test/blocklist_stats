@@ -240,6 +240,7 @@ The following filterlists are monitored:
 - Adblock List for Albania and Kosovo
 - Stevo's GenAI Blocklist
   - Stevo's GenAI Blocklist Extra
+- Reflect4.me Proxy Blocklist
 
 Code is under CC0. Filterlists are under their own licenses.
 
