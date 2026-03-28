@@ -222,5 +222,6 @@
     "Adblock List for Albania and Kosovo": "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt",
     "Stevo's GenAI Blocklist": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt",
     "Stevo's GenAI Blocklist Extra": "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt",
-    "Reflect4.me Proxy Blocklist": "https://raw.githubusercontent.com/clsfo/reflect4-blocklist/refs/heads/main/reflect4_domains.txt"
+    "Reflect4.me Proxy Blocklist": "https://raw.githubusercontent.com/clsfo/reflect4-blocklist/refs/heads/main/reflect4_domains.txt",
+    "somafix DNS Blocklist": "https://raw.githubusercontent.com/somafix/dns-blocklist/refs/heads/main/blocklist.txt"
 }

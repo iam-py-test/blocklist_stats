@@ -241,6 +241,7 @@ The following filterlists are monitored:
 - Stevo's GenAI Blocklist
   - Stevo's GenAI Blocklist Extra
 - Reflect4.me Proxy Blocklist
+- somafix DNS Blocklist<sup><a href="#note2">[2]</a></sup>
 
 Code is under CC0. Filterlists are under their own licenses.
 
